@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
-
 
 const useGeoLocation = () => {
   const [location, setLocation] = useState({
